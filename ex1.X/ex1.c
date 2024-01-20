@@ -11,7 +11,6 @@
 #pragma config FPLLODIV = DIV_1
 void main()
 { 
-    int numTry = 0;
     int j;
     TRISA &= 0xff00;
     PORTA = 0;
